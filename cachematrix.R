@@ -1,4 +1,5 @@
 ## Below are the functions for week 3 Assignment2
+
 ## The purpose of this function below is to create a special "matrix" object that can cache its inverse
 
 ## Function calls makeCachematrix and with argument x is equalt to matrix
@@ -17,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
-## computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
+## Computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
 ## If the inverse has already been calculated (and the matrix has not changed), 
 ## then the cachesolve should retrieve the inverse from the cache
 
